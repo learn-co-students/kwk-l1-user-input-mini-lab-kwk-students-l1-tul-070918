@@ -13,4 +13,8 @@ stay = gets.chomp.capitalize  #don't forget to Capitilize the input
 
 # Lastly, puts it all back by interpolating these values in a string.
 
-puts ""
+puts "What do you want to eat?"
+eat=gets.chomp
+puts "How many nights would you like to stay?"
+nights=gets.chomp
+puts "In your trip, you sre going to stay at #{stay.capitalize} for #{nights} and eat #{eat}."
